@@ -1,0 +1,11 @@
+[package]
+name = "imgavg"
+version = "0.1.0"
+authors = ["Teo Klestrup Röijezon <teo@nullable.se>"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+itertools = "0.7.6"
+imagefmt = { version = "4.0.0", default-features = false, features = ["jpeg"] }
